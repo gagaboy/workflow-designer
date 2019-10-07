@@ -3,7 +3,7 @@
   <section class="app-footer">
     <footer class="footer">
       <div class="container-fluid clearfix">
-        <span class="text-muted d-block text-center float-sm-right d-sm-inline-block">Moqui Workflow Designer</span>
+        <span class="text-muted d-block text-center float-sm-right d-sm-inline-block">Mfbos Workflow Designer</span>
         <!-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">By <a href="https://www.netvariant.com/" target="_blank">Netvariant</a></span> -->
       </div>
     </footer>
