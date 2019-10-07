@@ -6,7 +6,7 @@ module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? process.env.VUE_APP_PRODUCTION_PATH : '/',
   runtimeCompiler: true,
   devServer: {
-    port: 8081,
+    port: 8088,
     overlay: {
       warnings: true,
       errors: true
@@ -14,7 +14,7 @@ module.exports = {
     proxy: {
       // proxy all requests starting with /rest/s1 to localhost:8080
       '/rest/s1': {
-        target: 'http://localhost:8080',
+        target: 'http://localhost:8081',
         ws: true,
         changeOrigin: true
       }

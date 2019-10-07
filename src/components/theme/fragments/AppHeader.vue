@@ -2,7 +2,10 @@
   <b-navbar class="fixed-top" toggleable="md" type="dark" variant="info">
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
     <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
-      <router-link :to="{ name: 'Secure', params: {} }"><img class="logo" src="@/assets/images/MoquiLogoNew.png" alt="moqui logo"></router-link>
+      <router-link :to="{ name: 'Secure', params: {} }">
+        <img class="logo" src="@/assets/images/MfbosLogo.png" alt="moqui logo">
+        </router-link>
+        <span style="color: #28a745;font-size: 25px;margin: 12px;">工作流管理中心</span>
     </div>
     <b-collapse is-nav id="nav_collapse">
       <b-navbar-nav class="ml-auto">
