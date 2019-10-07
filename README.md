@@ -53,9 +53,9 @@ All API requests are pass though a proxy to reach the Moqui instance, this is co
 module.exports = {
     // ...
     proxy: {
-        // proxy all requests starting with /rest/s1 to localhost:8080
+        // proxy all requests starting with /rest/s1 to localhost:8081
         '/rest/s1': {
-            target: 'http://localhost:8080',
+            target: 'http://localhost:8081',
             ws: true,
             changeOrigin: true
         }
